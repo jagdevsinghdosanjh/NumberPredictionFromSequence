@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Number Sequence Predictor</title>
+</head>
+<body>
+    <h1>Enter a Number Sequence (Ver1.1)</h1>
+    <form method="POST">
+        <input type="text" name="sequence" placeholder="e.g., 1, 2, 3, 5, 8, 13">
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if predictions %}
+        <h2>Predicted Next Numbers:</h2>
+        <p>{{ predictions }}</p>
+    {% endif %}
+</body>
+</html>
+
