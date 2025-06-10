@@ -1,5 +1,4 @@
-This code is working well. How can I deploy this to the world wide web community?
-Glad to hear it's working perfectly! To deploy your Flask-based AI app to the worldwide web, you have several options. Here’s a streamlined approach:
+To deploy this Flask-based AI app to the worldwide web, you have several options. Here’s a streamlined approach:
 
 Step 1: Choose a Hosting Platform
 You can deploy your Flask app using one of these cloud services:
