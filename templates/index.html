@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern Prediction AI</title>
+</head>
+<body>
+    <h1>Enter a Number Sequence</h1>
+    <form method="POST">
+        <input type="text" name="sequence" placeholder="e.g. 2, 4, 6, 8, 10, 12">
+        <button type="submit">Predict Next Number</button>
+    </form>
+
+    {% if prediction is not none %}
+        <h2>AI Predicted: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
